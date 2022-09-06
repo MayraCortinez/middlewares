@@ -1,0 +1,38 @@
+<%- include('./partials/head') %>
+
+    </head>
+
+    <body class="body-categoria">
+        <%- include('./partials/header') %>
+
+
+            <div class="uk-section ">
+
+                <h1 class="uk-text-center">
+                    <%= title %>
+                </h1>
+
+                <div class="uk-container  uk-flex uk-flex-center">
+
+
+                    <div class="containe">
+                        <div class="row">
+                            <div class="col-6 mx-auto">
+                                <form method="GET" action="/admin">
+                                    <div class="ab-3">
+                                        <label for="user" class="form-label">user</label>
+
+                                        <input class="uk-input" type="text" id="user" name="user">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Ingresar</button>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+    </body>
+
+    </html>
